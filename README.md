@@ -5,8 +5,8 @@
 To get the frontend running locally:
 
 - Clone this repo
-- `npm install` to install all required dependencies
-- `npm start` to start the local server (this project uses create-react-app)
+- Run `npm install` to install all required dependencies in the `client` directory.
+- `npm start` to start the local server in the `client` directory (this project uses create-react-app)
 
 ### Making requests to the backend API
 
