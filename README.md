@@ -20,13 +20,8 @@ Run `npm start` in the the `rtmpserver` directory.
 
 ## Functionality overview
 
-**General functionality:**
-
 - Authenticate users via Google using OAuth 2.0 API
 - CRUD streams
 - GET and display paginated lists of streams
 - Live streaming using OBS software
-
-
-
 
