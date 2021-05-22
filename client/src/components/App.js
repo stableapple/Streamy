@@ -1,4 +1,3 @@
-import { render } from '@testing-library/react';
 import React, { Component } from 'react';
 import {Router, Route, Link, Switch } from 'react-router-dom';
 import Header from './Header'
@@ -8,6 +7,7 @@ import StreamList from './streams/StreamList'
 import StreamDelete from './streams/StreamDelete'
 import StreamEdit from './streams/streamEdit'
 import history from '../history'
+import 'bootswatch/dist/darkly/bootstrap.min.css'
 
 const App =() =>{
     return (
