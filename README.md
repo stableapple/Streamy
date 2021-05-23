@@ -13,21 +13,46 @@ A live streaming application using ReactJS and Redux.
 
 ### Backend - API Server
 
-1. **Open New Terminal Window** & Please `cd` into `api` folder and then run `npm install`
-1. Run `npm start` to run this on your local server. This opens port `8001`.
-1. Open [http://localhost:3005/streams](http://localhost:3005/streams) to view the fake api resource powered by `json-server`. The  API Server is used for interacting with our Frontend.
+1. **Open New Terminal Window** & Please `cd` into `api` folder and then run 
+```
+  npm install
+  ```
+3. Run `npm start` to run this on your local server. This opens port `8001`.
+```
+  npm install
+ ```
+5. Open [http://localhost:3005/streams](http://localhost:3005/streams) to view the fake api resource powered by `json-server`. The  API Server is used for interacting with our Frontend.
 
 ### Backend - RTMP Server
 
 1. **Open New Terminal Window** & Please `cd` into `rtmp` folder and then run `npm install`
-1. Run `npm start` to run this on your local server. This opens port `1935` for rtmp and port `8000` for http.
+
+```
+  npm install
+```
+
+3. Run `npm start` to run this on your local server. This opens port `1935` for rtmp and port `8000` for http.
+
+```
+  npm start
+```
 
 ### Frontend - Client Server
 
 1. **Open New Terminal Window** & Please `cd` into `client` folder and then run `npm install`
-1. Run `npm start` to run this on your local server. This opens port `3000`.
-1. Login using the sign in button to view the streams created by you.
-1. Open [http://localhost:3000](http://localhost:3000) to view the frontend part of the app within the browser.
+
+```
+  npm install
+```
+
+3. Run `npm start` to run this on your local server. This opens port `3000`.
+
+```
+  npm start
+```
+
+5. Login using the sign in button to view the streams created by you.
+6. Open [http://localhost:3000](http://localhost:3000) to view the frontend part of the app within the browser.
 
 ## Streaming through OBS
 
